@@ -1,0 +1,218 @@
+body {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.img{
+    background-image: url(https://images.pexels.com/photos/1797393/pexels-photo-1797393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    background-position: center;
+    background-repeat: repeat;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+}
+.main{
+    color: white;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: rgb(256,256,256,0.8);
+    border-radius: 15px 50px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+    transition: 0.5s;
+    margin-top:25%;
+}
+.head {
+    color: white;
+	border-radius: 3px;
+	background: rgb(256,256,256,0.8);
+    border-radius: 15px 50px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.head2 p,
+.head1 p {
+    margin: 0%;
+    padding-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    overflow: hidden;
+}
+hr {
+    border-top: 1px solid rgb(128, 120, 120);
+}
+.head1 button,
+.head2 button {
+    border: none;
+    overflow: hidden;
+    background-color: inherit;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#form2,#form1{
+    overflow: hidden;
+    transition: 1s;
+}
+.form-control {
+	font-size: 15px;
+}
+.form-control, .form-control:focus, .input-group-text {
+	border-color: #e1e1e1;
+}
+.validity{
+    border-color:red;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;		
+}
+.signup-form form {
+	color: black;
+	border-radius: 3px;
+	margin-bottom: 15px;
+    overflow: hidden;
+	background: rgb(256,256,256,0.8);
+    border-radius: 15px 50px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2,.signup-form h6 {
+	color: white;
+	font-weight: bold;
+	margin-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change {
+    0% {
+        color: green;
+    }
+
+    40% {
+        color: rgb(0, 102, 255);
+    }
+
+    75% {
+        color: rgb(247, 0, 255);
+    }
+
+    100% {
+        color: rgb(226, 43, 43);
+    }
+}
+
+.signup-form hr {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 15px;
+}
+.signup-form .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+}	
+.signup-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}	
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: rgb(2, 44, 2) ;
+	border: none;
+	min-width: 140px;
+    outline: none;
+}
+.signup-form .btn{
+    border-radius: 10px;
+}
+.signup-form .btn:hover{
+	background: green;
+    border : none;
+    outline: none; 
+}
+.signup-form .btn:focus{
+    border : none;
+    outline: none;
+}
+.signup-form a {
+	color: white;	
+	text-decoration: none;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: white;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: none;
+}
+.signup-form .fa {
+	font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+	font-size: 18px;
+}
+.signup-form .fa-check {
+	color: white;
+	left: 17px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+.butn{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(134, 131, 131) !important;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    min-width: 100px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.butn:hover{
+    background-color: #999595 !important;
+}
+.b1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.b1:hover{
+    color:rgb(255, 255, 255);
+    background-color: green !important;
+}
+#Page2,#Page3,#Building,#Row{
+    display: none;
+}
